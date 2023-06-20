@@ -98,12 +98,8 @@ class Hashtable(MutableMapping):
 
     def __iter__(self):
         """
-        You do not need to implement __iter__ for this assignment.
+        No need to implement __iter__ for this system.
         This stub is needed to satisfy `MutableMapping` however.)
-
-        Note, by not implementing __iter__ your implementation of Markov will
-        not be able to use things that depend upon it,
-        that shouldn't be a problem but you'll want to keep that in mind.
         """
         raise NotImplementedError("__iter__ not implemented")
 
